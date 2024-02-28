@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "array_hashing", "array_hashing", "{C86BFC21-AD53-4C8F-9779-AEF3412BF710}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContainsDuplicate", "array_hashing\ContainsDuplicate\ContainsDuplicate.csproj", "{E46D966F-52D9-4B21-BC7C-FCFE4598299A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E46D966F-52D9-4B21-BC7C-FCFE4598299A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E46D966F-52D9-4B21-BC7C-FCFE4598299A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E46D966F-52D9-4B21-BC7C-FCFE4598299A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E46D966F-52D9-4B21-BC7C-FCFE4598299A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E46D966F-52D9-4B21-BC7C-FCFE4598299A} = {C86BFC21-AD53-4C8F-9779-AEF3412BF710}
+	EndGlobalSection
+EndGlobal
