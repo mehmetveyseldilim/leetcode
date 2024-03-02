@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContainsDuplicate", "array_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Valid Anagram", "array_hashing\Valid Anagram\Valid Anagram.csproj", "{38989D9F-7F48-45AD-B361-9A59219BC5FA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoSum", "array_hashing\TwoSum\TwoSum.csproj", "{4831FA0E-72F2-4DA2-831F-C23F8F3910AC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,9 +28,14 @@ Global
 		{38989D9F-7F48-45AD-B361-9A59219BC5FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38989D9F-7F48-45AD-B361-9A59219BC5FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38989D9F-7F48-45AD-B361-9A59219BC5FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4831FA0E-72F2-4DA2-831F-C23F8F3910AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4831FA0E-72F2-4DA2-831F-C23F8F3910AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4831FA0E-72F2-4DA2-831F-C23F8F3910AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4831FA0E-72F2-4DA2-831F-C23F8F3910AC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{E46D966F-52D9-4B21-BC7C-FCFE4598299A} = {C86BFC21-AD53-4C8F-9779-AEF3412BF710}
 		{38989D9F-7F48-45AD-B361-9A59219BC5FA} = {C86BFC21-AD53-4C8F-9779-AEF3412BF710}
+		{4831FA0E-72F2-4DA2-831F-C23F8F3910AC} = {C86BFC21-AD53-4C8F-9779-AEF3412BF710}
 	EndGlobalSection
 EndGlobal
