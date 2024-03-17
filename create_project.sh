@@ -4,7 +4,7 @@ green="\033[1;32m"
 reset="\033[m"
 
 # Assign the directory name to a variable
-directory_name="two_pointers"
+directory_name="sliding_window"
 
 # Check if the directory exists
 if [ ! -d "$directory_name" ]; then
