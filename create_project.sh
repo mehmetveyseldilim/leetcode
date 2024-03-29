@@ -4,7 +4,7 @@ green="\033[1;32m"
 reset="\033[m"
 
 # Assign the directory name to a variable
-directory_name="stack"
+directory_name="binary_search"
 
 # Check if the directory exists
 if [ ! -d "$directory_name" ]; then

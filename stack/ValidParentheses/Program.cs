@@ -12,7 +12,8 @@ bool IsValid(string s)
             continue;
         }
 
-        if(chars.Count == 0) return false;
+        if (chars.Count == 0)
+            return false;
 
         char pop = chars.Pop();
 
