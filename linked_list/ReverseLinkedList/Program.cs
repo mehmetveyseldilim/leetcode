@@ -1,9 +1,9 @@
 ﻿public class ListNode
 {
     public int val;
-    public ListNode next;
+    public ListNode? next;
 
-    public ListNode(int val = 0, ListNode next = null)
+    public ListNode(int val = 0, ListNode? next = null)
     {
         this.val = val;
         this.next = next;
@@ -12,17 +12,15 @@
 
 public class Program
 {
-    public static void Main(string[] args)
+    public ListNode? ReverseList(ListNode head) 
     {
-        ListNode ReverseList(ListNode head)
-        {
             if(head == null || head.next == null)
             {
                 return head;
             }
 
-            ListNode prev = null;
-            ListNode cur = head;
+            ListNode? prev = null;
+            ListNode? cur = head;
 
             while(cur != null)
             {
@@ -33,6 +31,7 @@ public class Program
             }
 
             return prev;
-        }
+
     }
+    
 }
